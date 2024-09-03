@@ -6,12 +6,12 @@ git config --list #listar as configurações do git
 #Escopo de usuario
 git config --global user.name "Renato Setúbal"
 git config --global user.email "remiset@gmail.com"
-git config --global core.editor vscode
+git config --global core.editor vim
 git config --global init.defaultBranch main
 
 #Escopo para todo o sistema
 git config --system core.editor vim
-git config --system core.autocrlf true
+git config --system core.autocrlf false
 
 #Escopo por projeto
 git status
