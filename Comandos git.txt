@@ -1,0 +1,13 @@
+###Criando e configurando repositório
+
+#Definir nome, email, branch e editor padrao
+
+git config --list #listar as configurações do git
+
+git config --global user.name "Renato Setúbal"
+git config --global user.email "remiset@gmail.com"
+git config --global core.editor vscode
+git config --global init.defaultBranch main
+
+git config --system core.editor vim
+
